@@ -18,6 +18,14 @@ a {
   letter-spacing: 0.03em;
 }
 
+section {
+  margin-bottom: 94px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -25,8 +33,21 @@ a {
 li {
   list-style: none;
 }
+ul {
+  margin: 0;
+  padding-left: 0;
+}
 address {
   font-style: normal;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 3px solid cornflowerblue;
 }
 
 .herro-title {
@@ -36,6 +57,14 @@ address {
   font-size: 44px;
   line-height: 1.36em;
   text-shadow: 0 0 5px #27262690;
+  margin-top: 0;
+  margin-bottom: 30px;
+  outline: 3px solid cornflowerblue;
+}
+
+.image-hero {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
@@ -59,10 +88,12 @@ address {
   line-height: 1.35em;
   color: var(--main-color);
   font-weight: 500;
-  padding: 7px;
-  margin-left: 2px;
-  margin-right: 2px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
   border-radius: 2px;
+  text-align: center;
 }
 
 .logo {
@@ -87,9 +118,11 @@ address {
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.06em;
-  display: inline;
-  padding: 8px;
-  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  min-width: 200px;
 }
 
 .subclass {
@@ -99,6 +132,10 @@ address {
   line-height: 1.33em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .title {
@@ -120,15 +157,22 @@ footer {
 
 .info {
   display: inline-flex;
+  padding: 0;
+  margin-bottom: 0;
+  outline: 3px solid cornflowerblue;
+  text-align: center;
 }
 .opacity {
-  opacity: 0;
+  display: none;
 }
 .cursor {
   line-height: 1.62em;
   border: none;
   font-style: normal;
   font-family: Roboto;
+  padding: 6px 22px;
+  min-width: 73px;
+  border-radius: 4px;
 }
 
 .cursor:hover,
@@ -141,11 +185,50 @@ footer {
   line-height: 2em;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 4px;
+  margin: 0;
 }
 .direction {
   font-size: 16px;
   line-height: 1.18em;
+  padding-bottom: 16px;
+  text-align: center;
 }
 .contact {
   color: rgba(255, 255, 255, 0.6);
+}
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+}
+
+.developed {
+  text-align: center;
+}
+
+.grey {
+  background-color: F5F4FA;
+}
+.btn {
+  padding-top: 45px;
+  padding-bottom: 8px;
+}
+.for-image {
+  width: 1200px;
+  height: 600px;
+  display: inline-block;
+  text-align: center;
+  opacity: 80%;
+}
+.social {
+  margin-bottom: 24px;
+}
+.icon-nav {
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+.portfolio-btn {
+  display: inline-flex;
 }

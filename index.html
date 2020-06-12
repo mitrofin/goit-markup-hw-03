@@ -8,287 +8,305 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- шапка сайта -->
-    <header>
-      <nav>
-        <a href="./">
-          <p class="logo"><span class="accent">Web</span> Studio</p>
-        </a>
+    <div>
+      <!-- шапка сайта -->
+      <header>
+        <nav class="container">
+          <a href="./">
+            <p class="logo"><span class="accent">Web</span> Studio</p>
+          </a>
 
-        <ul class="info">
-          <li>
-            <a class="nav link" href="">Студия</a>
-          </li>
-          <li>
-            <a class="nav link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="nav link" href="">Контакты</a>
-          </li>
-        </ul>
+          <ul class="info">
+            <li>
+              <a class="nav link" href="">Студия</a>
+            </li>
+            <li>
+              <a class="nav link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a class="nav link" href="">Контакты</a>
+            </li>
+          </ul>
 
-        <address>
-          <a class="nav link" href="tel:+380961111111">+38 096 111 11 11</a>
-          <a class="nav link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </address>
-      </nav>
-    </header>
+          <address>
+            <a class="nav link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="nav link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </address>
+        </nav>
+      </header>
 
-    <!-- основной контент -->
-    <main>
-      <!-- первый блок_герой -->
-      <section>
-        <!-- <img src=""  alt="background image" width="1600" height="600"> -->
-        <h1 class="herro-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <a href="" class="knock">Заказать услугу</a>
-      </section>
+      <!-- основной контент -->
+      <main class="grey">
+        <!-- первый блок_герой -->
+        <section class="hero container">
+          <div class="for-image">
+            <!--  <img
+            class="image-hero"
+            src="./images/Header img.png"
+            alt="background image"
+            width="1600"
+            height="600"
+          /> -->
+            <h1 class="herro-title">
+              Эффективные решения <br />
+              для вашего бизнеса
+            </h1>
+            <a href="" class="knock">Заказать услугу</a>
+          </div>
+        </section>
 
-      <!-- второй блок -->
-      <section>
-        <h2 class="opacity">Преймущества</h2>
-        <ul class="info">
-          <li>
-            <img src="images/antenna1.svg" alt="antena" />
-            <h3 class="subclass">Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="images/clock1.svg" alt="clock" />
-            <h3 class="subclass">Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img src="images/diagram1.svg" alt="diagram" />
-            <h3 class="subclass">Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img src="images/astronaut1.svg" alt="astronaut" />
-            <h3 class="subclass">Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
+        <!-- второй блок -->
+        <section class="container">
+          <h2 class="opacity">Преймущества</h2>
+          <ul class="info">
+            <li>
+              <img src="images/antenna1.svg" alt="antena" />
+              <h3 class="subclass">Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img src="images/clock1.svg" alt="clock" />
+              <h3 class="subclass">Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img src="images/diagram1.svg" alt="diagram" />
+              <h3 class="subclass">Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img src="images/astronaut1.svg" alt="astronaut" />
+              <h3 class="subclass">Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </section>
 
-      <!-- третий блок_чем мы занимаемся -->
-      <section>
-        <h2 class="subclass title">Чем мы занимаемся</h2>
-        <ul class="info">
-          <li>
-            <a href="">
-              <img src="images/laptop.png" alt="laptop" />
-            </a>
-            <h3 class="subclass white">Десктопные приложения</h3>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/mobile.png" alt="mobile" />
-            </a>
-            <h3 class="subclass white">Мобильные приложения</h3>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/desktop.png" alt="desktop" />
-            </a>
-            <h3 class="subclass white">Дизайнерские решения</h3>
-          </li>
-        </ul>
-      </section>
+        <!-- третий блок_чем мы занимаемся -->
+        <section class="container">
+          <h2 class="subclass title">Чем мы занимаемся</h2>
+          <ul class="info">
+            <li>
+              <a href="">
+                <img src="images/laptop.png" alt="laptop" />
+              </a>
+              <h3 class="subclass white">Десктопные приложения</h3>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/mobile.png" alt="mobile" />
+              </a>
+              <h3 class="subclass white">Мобильные приложения</h3>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/desktop.png" alt="desktop" />
+              </a>
+              <h3 class="subclass white">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </section>
 
-      <!-- четвёртый блок_наша команда -->
-      <section>
-        <h2 class="subclass title">Наша команда</h2>
-        <ul class="info">
-          <li>
-            <img src="images/john.png" alt="john" />
-            <h3 class="name">Николай Кучеренко</h3>
-            <p class="direction" lang="en">Product Designer</p>
+        <!-- четвёртый блок_наша команда -->
+        <section class="grey">
+          <div class="container">
+            <h2 class="subclass title">Наша команда</h2>
             <ul class="info">
               <li>
-                <a href="" aria-label="Instagram link">Instagram</a>
+                <img src="images/john.png" alt="john" />
+                <h3 class="name">Николай Кучеренко</h3>
+                <p class="direction" lang="en">Product Designer</p>
+                <ul class="info social">
+                  <li>
+                    <a href="" aria-label="Instagram link">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Twitter link">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Facebook link">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="" aria-label="Twitter link">Twitter</a>
+                <img src="images/marta.png" alt="marta" />
+                <h3 class="name">Ольга Иванова</h3>
+                <p class="direction" lang="en">Frontend Developer</p>
+                <ul class="info">
+                  <li>
+                    <a href="" aria-label="Instagram link">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Twitter link">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Facebook link">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="" aria-label="Facebook link">Facebook</a>
+                <img src="images/robert.png" alt="robert" />
+                <h3 class="name">Ольга Иванова</h3>
+                <p class="direction" lang="en">Marketing</p>
+                <ul class="info">
+                  <li>
+                    <a href="" aria-label="Instagram link">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Twitter link">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Facebook link">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                <img src="images/martin.png" alt="martin" />
+                <h3 class="name">Иван Николаев</h3>
+                <p class="direction" lang="en">UI Designer</p>
+                <ul class="info">
+                  <li>
+                    <a href="" aria-label="Instagram link">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Twitter link">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="Facebook link">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="LinkedIn link">LinkedIn</a>
+                  </li>
+                </ul>
               </li>
             </ul>
-          </li>
-          <li>
-            <img src="images/marta.png" alt="marta" />
-            <h3 class="name">Ольга Иванова</h3>
-            <p class="direction" lang="en">Frontend Developer</p>
-            <ul class="info">
-              <li>
-                <a href="" aria-label="Instagram link">Instagram</a>
-              </li>
-              <li>
-                <a href="" aria-label="Twitter link">Twitter</a>
-              </li>
-              <li>
-                <a href="" aria-label="Facebook link">Facebook</a>
-              </li>
-              <li>
-                <a href="" aria-label="LinkedIn link">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="images/robert.png" alt="robert" />
-            <h3 class="name">Ольга Иванова</h3>
-            <p class="direction" lang="en">Marketing</p>
-            <ul class="info">
-              <li>
-                <a href="" aria-label="Instagram link">Instagram</a>
-              </li>
-              <li>
-                <a href="" aria-label="Twitter link">Twitter</a>
-              </li>
-              <li>
-                <a href="" aria-label="Facebook link">Facebook</a>
-              </li>
-              <li>
-                <a href="" aria-label="LinkedIn link">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="images/martin.png" alt="martin" />
-            <h3 class="name">Иван Николаев</h3>
-            <p class="direction" lang="en">UI Designer</p>
-            <ul class="info">
-              <li>
-                <a href="" aria-label="Instagram link">Instagram</a>
-              </li>
-              <li>
-                <a href="" aria-label="Twitter link">Twitter</a>
-              </li>
-              <li>
-                <a href="" aria-label="Facebook link">Facebook</a>
-              </li>
-              <li>
-                <a href="" aria-label="LinkedIn link">LinkedIn</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </section>
 
-      <!-- пятый блок_постоянные клиенты -->
-      <section>
-        <h2 class="subclass title">Постоянные клиенты</h2>
-        <ul class="info">
-          <li>
-            <a href="">
-              <img class="" src="images/logo1.svg" alt="logo1" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/logo2.svg" alt="logo2" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/logo3.svg" alt="logo3" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/logo4.svg" alt="logo4" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/logo5.svg" alt="logo5" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="images/logo6.svg" alt="logo6" />
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <!-- пятый блок_постоянные клиенты -->
+        <section class="container">
+          <h2 class="subclass title">Постоянные клиенты</h2>
+          <ul class="info">
+            <li>
+              <a href="">
+                <img class="" src="images/logo1.svg" alt="logo1" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/logo2.svg" alt="logo2" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/logo3.svg" alt="logo3" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/logo4.svg" alt="logo4" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/logo5.svg" alt="logo5" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/logo6.svg" alt="logo6" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
 
     <!-- футер -->
     <footer>
-      <p class="logo">
-        <span class="accent">Web</span> <span class="wh">Studio</span>
-      </p>
+      <div class="container">
+        <p class="logo btn">
+          <span class="accent">Web</span> <span class="wh">Studio</span>
+        </p>
 
-      <address>
+        <address>
+          <ul>
+            <li>
+              <p class="white">г. Киев, пр-т Леси Украинки, 26</p>
+            </li>
+            <li>
+              <a class="nav contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="nav contact" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <b class="subclass white">ПРИСОЕДИНЯЙТЕСЬ</b>
+
         <ul>
           <li>
-            <p class="white">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="" aria-label="Instagram link">Instagram</a>
           </li>
           <li>
-            <a class="nav contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a href="" aria-label="Twitter link">Twitter</a>
           </li>
           <li>
-            <a class="nav contact" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a href="" aria-label="Facebook link">Facebook</a>
+          </li>
+          <li>
+            <a href="" aria-label="LinkedIn link">LinkedIn</a>
           </li>
         </ul>
-      </address>
 
-      <b class="subclass white">ПРИСОЕДИНЯЙТЕСЬ</b>
+        <b class="subclass white">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
 
-      <ul>
-        <li>
-          <a href="" aria-label="Instagram link">Instagram</a>
-        </li>
-        <li>
-          <a href="" aria-label="Twitter link">Twitter</a>
-        </li>
-        <li>
-          <a href="" aria-label="Facebook link">Facebook</a>
-        </li>
-        <li>
-          <a href="" aria-label="LinkedIn link">LinkedIn</a>
-        </li>
-      </ul>
+        <form>
+          <input type="email" />
+          <button class="knock">
+            <span class="">Подписаться</span>
+          </button>
+        </form>
 
-      <b class="subclass white">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-
-      <form>
-        <input type="email" />
-        <button class="knock">
-          <span class="">Подписаться</span>
-        </button>
-      </form>
-
-      <p>
-        2020 &#10072; Developed by GoIT Students
-      </p>
+        <p class="developed">
+          2020 &#10072; Developed by GoIT Students
+        </p>
+      </div>
     </footer>
   </body>
 </html>
