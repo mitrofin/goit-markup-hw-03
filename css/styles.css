@@ -1,0 +1,151 @@
+:root {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  --main-color: #212121;
+  --accent-color: #2196f3;
+  --second-color: #ffffff;
+  --text-color: #757575;
+}
+
+body,
+button,
+a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+address {
+  font-style: normal;
+}
+
+.herro-title {
+  color: var(--second-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-shadow: 0 0 5px #27262690;
+}
+
+.nav {
+  color: var(--main-color);
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+
+.name {
+  font-style: Roboto;
+  font-size: 16px;
+  line-height: 1.35em;
+  color: var(--main-color);
+  font-weight: 500;
+  padding: 7px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 2px;
+}
+
+.logo {
+  color: black;
+  list-style: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.knock {
+  color: var(--second-color);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  display: inline;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.subclass {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.33em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 14px;
+  font-size: 36px;
+}
+
+.white {
+  color: var(--second-color);
+  text-shadow: 0 0 3px #2f303a;
+}
+.wh {
+  color: var(--second-color);
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.info {
+  display: inline-flex;
+}
+.opacity {
+  opacity: 0;
+}
+.cursor {
+  line-height: 1.62em;
+  border: none;
+  font-style: normal;
+  font-family: Roboto;
+}
+
+.cursor:hover,
+.cursor:focus {
+  background-color: var(--accent-color);
+  color: var(--second-color);
+}
+.icon {
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.direction {
+  font-size: 16px;
+  line-height: 1.18em;
+}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
