@@ -49,20 +49,21 @@
       <!-- основной контент -->
       <main class="">
         <!-- первый блок_герой -->
-        <section class="hero container">
-          <div class="for-image">
-            <!--  <img
-            class="image-hero"
+        <section class="for-image">
+          <div class="image-hero">
+             <!-- <img
             src="./images/Header img.png"
             alt="background image"
             width="1600"
-            height="600"
-          /> -->
-            <h1 class="herro-title">
-              Эффективные решения <br />
-              для вашего бизнеса
-            </h1>
-            <a href="" class="knock">Заказать услугу</a>
+            height="600" -->
+          />
+            <div class="hero">
+              <h1 class="herro-title">
+                Эффективные решения <br />
+                для вашего бизнеса
+              </h1>
+              <a href="" class="knock">Заказать услугу</a>
+            </div> 
           </div>
         </section>
 
@@ -70,7 +71,7 @@
         <section class="container">
           <h2 class="opacity">Преймущества</h2>
           <ul class="info">
-            <li class="info-size">
+            <li class="inf-size">
               <div class="grey-fon">
                 <img src="images/antenna1.svg" alt="antena" />
               </div>
@@ -82,7 +83,7 @@
                 </p>
               </div>
             </li>
-            <li>
+            <li class="inf-size">
               <div div class="grey-fon">
                 <img src="images/clock1.svg" alt="clock" />
               </div>
@@ -92,7 +93,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="inf-size">
               <div div class="grey-fon">
                 <img src="images/diagram1.svg" alt="diagram" />
               </div>
@@ -102,7 +103,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="inf-size">
               <div div class="grey-fon">
                 <img src="images/astronaut1.svg" alt="astronaut" />
               </div>
@@ -414,9 +415,11 @@
             <div class="footer-form">
               <b class="subclass white">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
               <form>
-                <input type="email" />
+                <input class="string" type="email" />
+                  <!-- <span> E=mail</span> -->
                 <button class="knock">
                   <span class="">Подписаться</span>
+                  <img class="sent" src="./images/icon send.svg" alt="">
                 </button>
               </form>
             </div>
